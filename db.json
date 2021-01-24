@@ -1,18 +1,11 @@
 {
   "logs": [
     {
-      "message": "test msg 1",
-      "attention": true,
-      "tech": "JOhn doe",
-      "date": "2021-01-18T16:23:48.950Z",
-      "id": 1
-    },
-    {
       "id": 2,
-      "message": "test msg 2 fixed",
+      "message": "Worksheet update required",
       "attention": false,
-      "tech": "JOhn doe",
-      "date": "2021-01-19T14:04:46.351Z"
+      "tech": "Mrunal Doe",
+      "date": "2021-01-24T10:19:56.819Z"
     },
     {
       "message": "Driver Updated",
@@ -22,11 +15,18 @@
       "id": 3
     },
     {
-      "message": "Need Drive",
+      "id": 4,
+      "message": "Need Drive : issue resolved",
+      "attention": false,
+      "tech": "Udit Jadawala",
+      "date": "2021-01-24T10:19:31.560Z"
+    },
+    {
+      "message": "Need attention at station 1",
       "attention": true,
-      "tech": "mrunal doe",
-      "date": "2021-01-19T14:18:04.586Z",
-      "id": 4
+      "tech": "Sara Wilson",
+      "date": "2021-01-24T10:19:12.185Z",
+      "id": 5
     }
   ],
   "techs": [
@@ -36,14 +36,19 @@
       "lastName": "Doe"
     },
     {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Mrunal",
+      "lastName": "Doe",
+      "id": 22
+    },
+    {
+      "firstName": "Udit",
+      "lastName": "Jadawala",
+      "id": 23
     }
   ]
 }
